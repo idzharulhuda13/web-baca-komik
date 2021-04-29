@@ -27,7 +27,7 @@ class Pengunjung extends BaseController
         };
 
         $data = [
-            'title' => 'Daftar Komik',
+            'title' => 'Daftar Pengunjung | BACA KOMIK',
             // 'pengunjung' => $this->pengunjungModel->findAll()
             'pengunjung' => $pengunjung->paginate(10, 'pengunjung'),
             'pager' => $pengunjung->pager,
