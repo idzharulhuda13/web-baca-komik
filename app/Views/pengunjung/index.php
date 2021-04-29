@@ -31,7 +31,7 @@
                             <th scope="row"><?= $i++; ?></th>
                             <td><?= $p['nama']; ?></td>
                             <td><?= $p['alamat']; ?></td>
-                            <td><a href="/" class="btn btn-success">Detail</a></td>
+                            <td><a href="/" class="btn btn-primary">Detail</a></td>
                         </tr>
                     <?php endforeach ?>
                 </tbody>
